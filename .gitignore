@@ -1,0 +1,9 @@
+# Ambiente e arquivos gerados
+.venv/
+.pytest_cache/
+__pycache__/
+*.egg-info/
+examples/saida/
+
+# Arquivos de ajuda e estudo
+ignorados/

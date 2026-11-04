@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "docgen"
+version = "0.1.0"
+description = "Biblioteca para montar documentos por código e exportá-los em vários formatos."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    { name = "Fabio Henrique Spiller Veloso" },
+    { name = "Lucas Gabriel Nunes dos Santos" },
+    { name = "Vinícius Wamser Gogoglla" },
+]
+# A biblioteca usa só a biblioteca padrão do Python: nenhuma dependência em runtime.
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
