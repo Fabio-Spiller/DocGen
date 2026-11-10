@@ -14,7 +14,7 @@ Trabalho acadêmico da disciplina de Design Patterns (PUCPR).
 
 ## Vídeo
 
-TODO: link do YouTube
+TODO: https://youtu.be/D46F8gxE9eM
 
 ## Instalação
 
